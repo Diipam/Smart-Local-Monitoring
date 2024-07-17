@@ -1,0 +1,716 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F373ACDB2C466CB2003C4798 /* Smart_Local_MonitoringApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F373ACDA2C466CB2003C4798 /* Smart_Local_MonitoringApp.swift */; };
+		F373ACDF2C466CB3003C4798 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F373ACDE2C466CB3003C4798 /* Assets.xcassets */; };
+		F373ACE22C466CB3003C4798 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F373ACE12C466CB3003C4798 /* Preview Assets.xcassets */; };
+		F373ACEC2C466CB4003C4798 /* Smart_Local_MonitoringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F373ACEB2C466CB4003C4798 /* Smart_Local_MonitoringTests.swift */; };
+		F373ACF62C466CB4003C4798 /* Smart_Local_MonitoringUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F373ACF52C466CB4003C4798 /* Smart_Local_MonitoringUITests.swift */; };
+		F373ACF82C466CB4003C4798 /* Smart_Local_MonitoringUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F373ACF72C466CB4003C4798 /* Smart_Local_MonitoringUITestsLaunchTests.swift */; };
+		F373AD0C2C466D82003C4798 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = F373AD0B2C466D82003C4798 /* UserDefaults.swift */; };
+		F373AD0E2C466DA9003C4798 /* AppFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = F373AD0D2C466DA9003C4798 /* AppFont.swift */; };
+		F373AD102C466DB3003C4798 /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F373AD0F2C466DB3003C4798 /* AppColor.swift */; };
+		F373AD172C467139003C4798 /* RiveRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = F373AD162C467139003C4798 /* RiveRuntime */; };
+		F373AD192C467163003C4798 /* MainTabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F373AD182C467163003C4798 /* MainTabbarView.swift */; };
+		F373AD1C2C467327003C4798 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = F373AD1B2C467327003C4798 /* Tab.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F373ACE82C466CB4003C4798 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F373ACCF2C466CB2003C4798 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F373ACD62C466CB2003C4798;
+			remoteInfo = "Smart Local Monitoring";
+		};
+		F373ACF22C466CB4003C4798 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F373ACCF2C466CB2003C4798 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F373ACD62C466CB2003C4798;
+			remoteInfo = "Smart Local Monitoring";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F373ACD72C466CB2003C4798 /* Smart Local Monitoring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart Local Monitoring.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F373ACDA2C466CB2003C4798 /* Smart_Local_MonitoringApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_Local_MonitoringApp.swift; sourceTree = "<group>"; };
+		F373ACDE2C466CB3003C4798 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F373ACE12C466CB3003C4798 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F373ACE72C466CB4003C4798 /* Smart Local MonitoringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smart Local MonitoringTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F373ACEB2C466CB4003C4798 /* Smart_Local_MonitoringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_Local_MonitoringTests.swift; sourceTree = "<group>"; };
+		F373ACF12C466CB4003C4798 /* Smart Local MonitoringUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smart Local MonitoringUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F373ACF52C466CB4003C4798 /* Smart_Local_MonitoringUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_Local_MonitoringUITests.swift; sourceTree = "<group>"; };
+		F373ACF72C466CB4003C4798 /* Smart_Local_MonitoringUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_Local_MonitoringUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F373AD0B2C466D82003C4798 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		F373AD0D2C466DA9003C4798 /* AppFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFont.swift; sourceTree = "<group>"; };
+		F373AD0F2C466DB3003C4798 /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
+		F373AD182C467163003C4798 /* MainTabbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbarView.swift; sourceTree = "<group>"; };
+		F373AD1B2C467327003C4798 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F373ACD42C466CB2003C4798 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F373AD172C467139003C4798 /* RiveRuntime in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F373ACE42C466CB4003C4798 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F373ACEE2C466CB4003C4798 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F373ACCE2C466CB2003C4798 = {
+			isa = PBXGroup;
+			children = (
+				F373ACD92C466CB2003C4798 /* Smart Local Monitoring */,
+				F373ACEA2C466CB4003C4798 /* Smart Local MonitoringTests */,
+				F373ACF42C466CB4003C4798 /* Smart Local MonitoringUITests */,
+				F373ACD82C466CB2003C4798 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F373ACD82C466CB2003C4798 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F373ACD72C466CB2003C4798 /* Smart Local Monitoring.app */,
+				F373ACE72C466CB4003C4798 /* Smart Local MonitoringTests.xctest */,
+				F373ACF12C466CB4003C4798 /* Smart Local MonitoringUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F373ACD92C466CB2003C4798 /* Smart Local Monitoring */ = {
+			isa = PBXGroup;
+			children = (
+				F373AD072C466CC8003C4798 /* App */,
+				F373AD062C466CC6003C4798 /* Core */,
+				F373AD052C466CC4003C4798 /* Services */,
+				F373AD042C466CC2003C4798 /* Utils */,
+				F373ACDE2C466CB3003C4798 /* Assets.xcassets */,
+				F373ACE02C466CB3003C4798 /* Preview Content */,
+			);
+			path = "Smart Local Monitoring";
+			sourceTree = "<group>";
+		};
+		F373ACE02C466CB3003C4798 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F373ACE12C466CB3003C4798 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F373ACEA2C466CB4003C4798 /* Smart Local MonitoringTests */ = {
+			isa = PBXGroup;
+			children = (
+				F373ACEB2C466CB4003C4798 /* Smart_Local_MonitoringTests.swift */,
+			);
+			path = "Smart Local MonitoringTests";
+			sourceTree = "<group>";
+		};
+		F373ACF42C466CB4003C4798 /* Smart Local MonitoringUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F373ACF52C466CB4003C4798 /* Smart_Local_MonitoringUITests.swift */,
+				F373ACF72C466CB4003C4798 /* Smart_Local_MonitoringUITestsLaunchTests.swift */,
+			);
+			path = "Smart Local MonitoringUITests";
+			sourceTree = "<group>";
+		};
+		F373AD042C466CC2003C4798 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F373AD1A2C4671E6003C4798 /* ViewModifiers */,
+				F373AD0F2C466DB3003C4798 /* AppColor.swift */,
+				F373AD0D2C466DA9003C4798 /* AppFont.swift */,
+				F373AD0B2C466D82003C4798 /* UserDefaults.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F373AD052C466CC4003C4798 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F373AD062C466CC6003C4798 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F373AD122C466EEC003C4798 /* Authentication */,
+				F373AD0A2C466D3F003C4798 /* HomeScreen */,
+				F373AD092C466D12003C4798 /* Login */,
+				F373AD082C466D05003C4798 /* Onboarding Screen */,
+				F373AD112C466EB9003C4798 /* TabBar */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		F373AD072C466CC8003C4798 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F373ACDA2C466CB2003C4798 /* Smart_Local_MonitoringApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F373AD082C466D05003C4798 /* Onboarding Screen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Onboarding Screen";
+			sourceTree = "<group>";
+		};
+		F373AD092C466D12003C4798 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		F373AD0A2C466D3F003C4798 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		F373AD112C466EB9003C4798 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				F373AD182C467163003C4798 /* MainTabbarView.swift */,
+				F373AD1B2C467327003C4798 /* Tab.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		F373AD122C466EEC003C4798 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		F373AD1A2C4671E6003C4798 /* ViewModifiers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModifiers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F373ACD62C466CB2003C4798 /* Smart Local Monitoring */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F373ACFB2C466CB4003C4798 /* Build configuration list for PBXNativeTarget "Smart Local Monitoring" */;
+			buildPhases = (
+				F373ACD32C466CB2003C4798 /* Sources */,
+				F373ACD42C466CB2003C4798 /* Frameworks */,
+				F373ACD52C466CB2003C4798 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Smart Local Monitoring";
+			packageProductDependencies = (
+				F373AD162C467139003C4798 /* RiveRuntime */,
+			);
+			productName = "Smart Local Monitoring";
+			productReference = F373ACD72C466CB2003C4798 /* Smart Local Monitoring.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F373ACE62C466CB4003C4798 /* Smart Local MonitoringTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F373ACFE2C466CB4003C4798 /* Build configuration list for PBXNativeTarget "Smart Local MonitoringTests" */;
+			buildPhases = (
+				F373ACE32C466CB4003C4798 /* Sources */,
+				F373ACE42C466CB4003C4798 /* Frameworks */,
+				F373ACE52C466CB4003C4798 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F373ACE92C466CB4003C4798 /* PBXTargetDependency */,
+			);
+			name = "Smart Local MonitoringTests";
+			productName = "Smart Local MonitoringTests";
+			productReference = F373ACE72C466CB4003C4798 /* Smart Local MonitoringTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F373ACF02C466CB4003C4798 /* Smart Local MonitoringUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F373AD012C466CB4003C4798 /* Build configuration list for PBXNativeTarget "Smart Local MonitoringUITests" */;
+			buildPhases = (
+				F373ACED2C466CB4003C4798 /* Sources */,
+				F373ACEE2C466CB4003C4798 /* Frameworks */,
+				F373ACEF2C466CB4003C4798 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F373ACF32C466CB4003C4798 /* PBXTargetDependency */,
+			);
+			name = "Smart Local MonitoringUITests";
+			productName = "Smart Local MonitoringUITests";
+			productReference = F373ACF12C466CB4003C4798 /* Smart Local MonitoringUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F373ACCF2C466CB2003C4798 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					F373ACD62C466CB2003C4798 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					F373ACE62C466CB4003C4798 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = F373ACD62C466CB2003C4798;
+					};
+					F373ACF02C466CB4003C4798 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = F373ACD62C466CB2003C4798;
+					};
+				};
+			};
+			buildConfigurationList = F373ACD22C466CB2003C4798 /* Build configuration list for PBXProject "Smart Local Monitoring" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F373ACCE2C466CB2003C4798;
+			packageReferences = (
+				F373AD152C467139003C4798 /* XCRemoteSwiftPackageReference "rive-ios" */,
+			);
+			productRefGroup = F373ACD82C466CB2003C4798 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F373ACD62C466CB2003C4798 /* Smart Local Monitoring */,
+				F373ACE62C466CB4003C4798 /* Smart Local MonitoringTests */,
+				F373ACF02C466CB4003C4798 /* Smart Local MonitoringUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F373ACD52C466CB2003C4798 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F373ACE22C466CB3003C4798 /* Preview Assets.xcassets in Resources */,
+				F373ACDF2C466CB3003C4798 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F373ACE52C466CB4003C4798 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F373ACEF2C466CB4003C4798 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F373ACD32C466CB2003C4798 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F373AD0E2C466DA9003C4798 /* AppFont.swift in Sources */,
+				F373AD192C467163003C4798 /* MainTabbarView.swift in Sources */,
+				F373AD102C466DB3003C4798 /* AppColor.swift in Sources */,
+				F373AD1C2C467327003C4798 /* Tab.swift in Sources */,
+				F373ACDB2C466CB2003C4798 /* Smart_Local_MonitoringApp.swift in Sources */,
+				F373AD0C2C466D82003C4798 /* UserDefaults.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F373ACE32C466CB4003C4798 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F373ACEC2C466CB4003C4798 /* Smart_Local_MonitoringTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F373ACED2C466CB4003C4798 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F373ACF82C466CB4003C4798 /* Smart_Local_MonitoringUITestsLaunchTests.swift in Sources */,
+				F373ACF62C466CB4003C4798 /* Smart_Local_MonitoringUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F373ACE92C466CB4003C4798 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F373ACD62C466CB2003C4798 /* Smart Local Monitoring */;
+			targetProxy = F373ACE82C466CB4003C4798 /* PBXContainerItemProxy */;
+		};
+		F373ACF32C466CB4003C4798 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F373ACD62C466CB2003C4798 /* Smart Local Monitoring */;
+			targetProxy = F373ACF22C466CB4003C4798 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F373ACF92C466CB4003C4798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F373ACFA2C466CB4003C4798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F373ACFC2C466CB4003C4798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Smart Local Monitoring/Preview Content\"";
+				DEVELOPMENT_TEAM = RJC4MPJ9ZS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DeepamDhakal.Smart-Local-Monitoring";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F373ACFD2C466CB4003C4798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Smart Local Monitoring/Preview Content\"";
+				DEVELOPMENT_TEAM = RJC4MPJ9ZS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DeepamDhakal.Smart-Local-Monitoring";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F373ACFF2C466CB4003C4798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RJC4MPJ9ZS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DeepamDhakal.Smart-Local-MonitoringTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smart Local Monitoring.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Smart Local Monitoring";
+			};
+			name = Debug;
+		};
+		F373AD002C466CB4003C4798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RJC4MPJ9ZS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DeepamDhakal.Smart-Local-MonitoringTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smart Local Monitoring.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Smart Local Monitoring";
+			};
+			name = Release;
+		};
+		F373AD022C466CB4003C4798 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RJC4MPJ9ZS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DeepamDhakal.Smart-Local-MonitoringUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Smart Local Monitoring";
+			};
+			name = Debug;
+		};
+		F373AD032C466CB4003C4798 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RJC4MPJ9ZS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DeepamDhakal.Smart-Local-MonitoringUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Smart Local Monitoring";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F373ACD22C466CB2003C4798 /* Build configuration list for PBXProject "Smart Local Monitoring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F373ACF92C466CB4003C4798 /* Debug */,
+				F373ACFA2C466CB4003C4798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F373ACFB2C466CB4003C4798 /* Build configuration list for PBXNativeTarget "Smart Local Monitoring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F373ACFC2C466CB4003C4798 /* Debug */,
+				F373ACFD2C466CB4003C4798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F373ACFE2C466CB4003C4798 /* Build configuration list for PBXNativeTarget "Smart Local MonitoringTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F373ACFF2C466CB4003C4798 /* Debug */,
+				F373AD002C466CB4003C4798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F373AD012C466CB4003C4798 /* Build configuration list for PBXNativeTarget "Smart Local MonitoringUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F373AD022C466CB4003C4798 /* Debug */,
+				F373AD032C466CB4003C4798 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F373AD152C467139003C4798 /* XCRemoteSwiftPackageReference "rive-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rive-app/rive-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.14.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F373AD162C467139003C4798 /* RiveRuntime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F373AD152C467139003C4798 /* XCRemoteSwiftPackageReference "rive-ios" */;
+			productName = RiveRuntime;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F373ACCF2C466CB2003C4798 /* Project object */;
+}
